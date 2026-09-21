@@ -1,9 +1,10 @@
-# PLP Python Week 4
+# PLP Python Functions Assignment
 
-## Files
+This assignment is about learning to create and reuse functions instead of repeating code.
 
-- `grade_reporter.py` - A program that assigns grades, counts passes and failures, and calculates the average score.
-- `bug_hunt.py` - A debugging exercise that fixes three bugs and calculates the sum of numbers 1 to 5.
+**Files:**
+- `welcome.py` - Has one welcome(name) function that returns a personalized greeting and is called three times for Amina, Brian, and Fatuma.
+- `toolbox.py` - Has small utility functions like double() that takes a number and returns it doubled.
 
-
-The hardest bug to find in Part B was the incorrect `while` condition because it did not produce an error message. I knew something was wrong because the program was supposed to add 1, 2, 3, 4, and 5, but the condition `count < 5` stopped before 5 was included, giving the wrong answer instead of 15.
+**Reflection:**
+The hardest part was understanding why we should delete the old repeated code. I thought having the function twice was okay, but I learned that one function should be defined once and reused three times to keep the code clean and DRY.
